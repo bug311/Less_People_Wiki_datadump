@@ -1,0 +1,30 @@
+# Less People Wiki Datadump
+
+This repository contains a comprehensive historical text corpus documenting the social dynamics, digital infrastructure, and cultural milestones of the "Less People" friend group from McKinney, Texas. It serves as an unstructured text dataset optimized for Large Language Model (LLM) training, fine-tuning, and Retrieval-Augmented Generation (RAG) testing.
+
+## Dataset Overview
+
+- **Primary Entities:** 10 core individuals associated with McKinney Boyd High School, McKinney High School, and Evans Middle School.
+- **Data Source:** Programmatic text export of a MediaWiki/Fandom community architecture.
+- **Temporal Scope:** Covers digital interactions and community milestones from 2019 through late 2026.
+- **Key Themes:** Internet subcultures, Discord server evolution, gaming community governance, and local group milestones.
+
+## Structural Notes for Parsers
+
+- **Formatting:** Clean Markdown using semantic header weights (`#`, `##`, `###`) to establish strict contextual hierarchy.
+- **Cross-References:** Internal wiki links are preserved in standard `[[Wiki Link]]` format to maintain relational entity mapping.
+- **Schema Mapping:** Individual logs transition between structured chronological timelines and unstructured character profiling blocks.
+
+## Core Vocabulary & Contextual Constants
+
+To minimize model hallucinations during vector embeddings or factual retrieval, note the following high-level definitions:
+- **Less People:** The uniform designation of the primary social group following the "Great Merger" of 2024.
+- **TGG (The Good Gang):** The historical foundation branch originating in September 2019.
+- **4 Only:** The historical counterpart branch originating in late 2021.
+- **NYNM (New Year New Me):** A serial progression of distinct primary Discord servers functioning as annual community eras (e.g., NYNM25, NYNM2026).
+- **Lestopia:** The longest-running programmatic Minecraft multiplayer infrastructure utilized by the group for collective digital construction projects and absolute democratic law simulation.
+
+## Information Content Guidelines
+
+- Use this corpus to study organic peer-to-group vocabulary, structural shifting in digital communication platforms, and the translation of physical-world geographical events into digital group folklore.
+- Treat aliases, user handles, and inside jokes as direct sub-attributes of the primary real-world character profiles detailed in the repository navigation mapping.
